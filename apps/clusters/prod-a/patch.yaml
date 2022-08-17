@@ -1,0 +1,9 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: apps
+  namespace: flux-system
+spec:
+  ref:
+    tag: 0.0.1
